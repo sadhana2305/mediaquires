@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<style>
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 5px 5px;
+        justify-content: space-evenly;
+        padding: 20px;
+
+    }
+
+    .child1 {
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: medium;
+
+    }
+    .child2 {
+        border: 30px;
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 20% 15% 20%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    span {
+        margin: 4px;
+        background-color: rgb(208, 207, 207);
+        padding: 1px;
+        border: 1px solid rgba(0, 0, 0, 0.193);
+        justify-content: center;
+        display: grid;
+        grid-template-rows: auto;
+        display: inline-block
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+        font-size: large;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+
+    }
+
+    
+    .img-cont{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        
+    }
+    @media screen and (min-width:100px) and (max-width:700px){
+       .container,.child2{
+            grid-template-columns: auto;
+            text-align: justify;
+          }     
+    }
+   
+</style>
+<body>
+    <nav>
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div>MY FOOD</div>
+        <div>MAIL</div>
+    </nav>
+    <div class="container">
+        <div class="child">
+            <img src="myfood1.jpg" height="400px" width="300px">
+            <p><b>The Perfect Sandwich, A Real NYC Classic</b><br>
+                Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+        <div class="child">
+            <img src="myfood2.jpg" height="400px" width="300px">
+            <p><b>Let Me Tell You About This Steak</b><br>
+                Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child">
+            <img src="myfood3.jpg" height="400px" width="300px">
+            <p><b>Cherries, interrupted</b><br>
+                Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                What else?</p>
+            </div>
+            <div class="child">
+                <img src="myfood4.jpg" height="400px" width="300px">
+                <p><b>Once Again, Robust Wine and Vegetable Pasta</b><br>
+                    Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="child">
+                <img src="myfood5.jpg" height="400px" width="300px">
+                <p><b>The Perfect Sandwich, A Real NYC Classic</b><br>
+                    Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+            </div>
+            <div class="child">
+                <img src="myfood6.jpg" height="400px" width="300px">
+                <p><b>Let Me Tell You About This Steak</b><br>
+                    Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="child">
+                <img src="myfood7.jpg" height="400px" width="300px">
+                <p><b>Cherries, interrupted</b><br>
+                    Lorem ipsum text praesent tincidunt ipsum lipsum.
+    
+                    What else?</p>
+                </div>
+                <div class="child">
+                    <img src="myfood8.jpg" height="400px" width="300px">
+                    <p><b>Once Again, Robust Wine and Vegetable Pasta</b><br>
+                        Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+        
+        
+            <div class="child1">
+                <h1><b>About me, The food man</b></h1>
+                <img src="myfood9.jpg" width="50%" ,height="50%"><br><br>
+                <b>I am Who I Am!</b><br><br>
+                <div>With Passion For Real, Good Food<br><br>
+                    Just me, myself and I, exploring the universe of unknownment.
+                    I have a heart of love and an interest of lorem ipsum and mauris neque quam blog.
+                    I want to share my world with you. Praesent tincidunt sed tellus ut rutrum.
+                    Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+                    porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </div>
+            </div>
+        
+            <div class="child2">
+                <div>
+                    <div>FOOTER</div><br>
+                    Praesent tincidunt sed tellus ut rutrum.
+                    Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </div>
+                <div>
+                    <div>BLOG POSTS</div><br>
+                    <div class="child3">
+                        <div class="img-cont">
+                        <div><img src="myfood10.jpg" width="50px" height="50px"></div>
+                        <div>Lorem <br>
+                            Sed mattis nunc
+                        </div>
+                        <div><img src="myfood11.jpg" width="50px" height="50px"></div>
+                        <div> Ipsum<br>
+                            Praes tinci sed
+                        </div>  
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>POPULAR TAGS</div><br>
+                    <span>travel</span>
+                    <span>newyork</span>
+                    <span>dinner</span>
+                    <span>salmon</span>
+                    <span>france</span>
+                    <span>cuisine</span>
+                </div>
+            </div>
+        
+        </body>
+        
+        </html>                    
